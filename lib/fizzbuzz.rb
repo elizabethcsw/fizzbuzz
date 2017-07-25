@@ -1,5 +1,6 @@
 class Fixnum
   #this is a private method
+  #this is a method that does not take an argument(num)
   def fizzbuzz
     return "fizzbuzz" if self%15 == 0
     return "fizz" if self%3 == 0
